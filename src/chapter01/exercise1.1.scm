@@ -1,5 +1,3 @@
-#lang scheme/base
-
 10
 
 (+ 5 3 4)
