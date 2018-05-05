@@ -1,2 +1,10 @@
 (define (asserteq a b)
-  (if (= a b) "PASSED" "ERROR"))
+  (cond ((= a b)
+      (display "\nPASSED") ())
+      (else
+        (display "\nERROR\n")
+        (display "Expected: ")
+        (display b)
+        (display "\nGot:      ")
+        (display a)
+        ())))
