@@ -7,3 +7,12 @@
 (asserteq (f-rec 4) 6)
 (asserteq (f-rec 5) 11)
 (asserteq (f-rec 6) 20)
+(asserteq (f-rec 7) 37)
+
+(asserteq (f-iter 1) 1)
+(asserteq (f-iter 2) 2)
+(asserteq (f-iter 3) 3)
+(asserteq (f-iter 4) 6)
+(asserteq (f-iter 5) 11)
+(asserteq (f-iter 6) 20)
+(asserteq (f-iter 7) 37)
