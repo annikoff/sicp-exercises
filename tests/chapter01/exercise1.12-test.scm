@@ -1,5 +1,5 @@
 (load "./tests/tester.scm")
-(load "./src/chapter01/exercise.1.12.scm")
+(load "./src/chapter01/exercise1.12.scm")
 
 (asserteq (p-triangle -1) (list))
 
